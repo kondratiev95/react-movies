@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Footer() {
+function Footer() {
     return (
         <footer className="page-footer purple lighten-1">
             <div class="footer-copyright">
@@ -12,3 +12,5 @@ export function Footer() {
         </footer>
     )
 }
+
+export { Footer };

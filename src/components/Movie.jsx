@@ -10,7 +10,6 @@ function Movie(props) {
         Poster: poster
     } = props;
 
-
     return (
         <div className="card movie">
             <div className="card-image waves-effect waves-block waves-light">
@@ -28,4 +27,5 @@ function Movie(props) {
         </div>
     )
 }
-export { Movie }
+
+export { Movie };
